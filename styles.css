@@ -1,0 +1,138 @@
+ /*google font style */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+ * {
+     box-sizing: border-box;
+ }
+ 
+ body {
+     overflow-x: hidden;
+ }
+ 
+ #text {
+     font-weight: 600;
+     font-size: 40px;
+     line-height: 1.2;
+     font-family: 'Poppins', sans-serif;
+     text-align: left;
+ }
+ 
+ #div-txt {
+     text-align: center;
+     margin-top: 110px;
+     margin-bottom: 70px;
+     margin-left: 180px;
+ }
+ 
+ .desk {
+     background-repeat: no-repeat;
+     object-fit: cover;
+     background-image: url('desktop.png');
+     height: 100vh;
+     width: 100%;
+ }
+ 
+ .mob {
+     background-repeat: no-repeat;
+     object-fit: cover;
+     display: none;
+     height: 65vh;
+     background-image: url('mobile.png');
+ }
+ /*resizing according to screen size */
+ 
+ @media (max-width: 500px) {
+     #div-txt {
+         margin-top: 60px;
+         margin-left: 0;
+     }
+     .mob {
+         display: block;
+     }
+     .desk {
+         display: none;
+     }
+ }
+ /* form for desktop*/
+ 
+ .div-form {
+     width: 500px;
+     height: 420px;
+     background: #FFFFFF;
+     border-radius: 8px;
+     color: black;
+     padding-top: 20px;
+     margin-top: 130px;
+     margin-left: 70px;
+ }
+ 
+ #form-h3 {
+     font-weight: 600;
+     line-height: 1.2;
+     font-family: 'Poppins', sans-serif;
+     text-align: center;
+ }
+ 
+ .div-form p {
+     line-height: 1.2;
+     font-family: 'Poppins', sans-serif;
+     text-align: center;
+ }
+ 
+ .form {
+     line-height: 1.2;
+     font-family: 'Poppins', sans-serif;
+     padding-left: 50px;
+ }
+ 
+ .form button {
+     width: 150px;
+     height: 30px;
+     border-radius: 4px;
+     color: #FFFFFF;
+     background: #9C7AF5;
+     margin-left: 130px;
+ }
+ 
+ #p {
+     text-align: left;
+     line-height: 1.2;
+     font-family: 'Poppins', sans-serif;
+ }
+ /* form for mobile*/
+ 
+ .div1-form {
+     width: 300px;
+     height: 400px;
+     background: #FFFFFF;
+     border-radius: 8px;
+     color: black;
+     padding-top: 20px;
+     margin-top: 130px;
+     margin-left: 10px;
+ }
+ 
+ #form1-h3 {
+     font-weight: 600;
+     line-height: 1.2;
+     font-family: 'Poppins', sans-serif;
+     text-align: center;
+ }
+ 
+ #form {
+     line-height: 1.2;
+     font-family: 'Poppins', sans-serif;
+     padding-left: 5px;
+ }
+ 
+ #p1 {
+     font-size: smaller;
+     text-align: center;
+ }
+ 
+ #btn {
+     margin-left: 75px;
+     color: #FFFFFF;
+     background: #9C7AF5;
+     border-radius: 4px;
+ }
